@@ -1,5 +1,5 @@
 # Regex
-###Tổng hợp các biểu thức chính quy
+### Tổng hợp các biểu thức chính quy <br/>
 1.Để lấy date từ một chuỗi:
 ```
 import re
