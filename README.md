@@ -3,5 +3,7 @@
 1.Để lấy date từ một chuỗi:
 ```
 import re
-re.findall("\d+/\d+/\d+", "03/25/93 Total time of visit (in minutes):\n")
+date=re.findall("\d+/\d+/\d+", "03/25/93 Total time of visit (in minutes):\n")
+print(date)
+>>>output:[‘03/25/93’]
 ```
