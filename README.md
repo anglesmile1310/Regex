@@ -5,5 +5,8 @@
 import re
 date=re.findall("\d+/\d+/\d+", "03/25/93 Total time of visit (in minutes):\n")
 print(date)
->>>output:[‘03/25/93’]
+```
+Kết quả:
+```
+[‘03/25/93’]
 ```
